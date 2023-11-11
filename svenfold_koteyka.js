@@ -69940,7 +69940,7 @@ const V8 = {
                     n = new FileReader;
                 n.onload = function(e) {
                     t.sourceImgUrl = n.result,
-                }, n.readAsDataURL(e)
+                }
             },
             createImg(e) {
                 let t = this,
